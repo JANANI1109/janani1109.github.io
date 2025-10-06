@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff0f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #c71585, #ff80c0);
+  color: white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+header span {
+  color: #ffe6f3;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 25px;
+  background: white;
+  color: #c71585;
+  font-weight: 600;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ffe6f3;
+  transform: scale(1.05);
+}
+
+section {
+  padding: 60px 20px;
+}
+
+h2 {
+  color: #c71585;
+  margin-bottom: 15px;
+}
+
+.skills-container span {
+  display: inline-block;
+  background: #c71585;
+  color: white;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  transition: 0.3s;
+}
+
+.skills-container span:hover {
+  background: #ff80c0;
+  transform: scale(1.1);
+}
+
+.project {
+  background: white;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.project a {
+  color: #c71585;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #c71585;
+  color: white;
+  padding: 15px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 30px;
+}
